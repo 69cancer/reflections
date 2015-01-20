@@ -42,3 +42,9 @@ What is the result of merging two branches together? Why do we represent it in t
   branch then it will not be present in the final commit, even if it is present in other branch.
   We represent it in the diagram the way we do because it will layout a commit having the parent relationship
   with the both branches. Now we can delete the branch label that is merged except master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Pros: Saves time, especially when each non-conflicting merge is trivial.
+        Pinpoint the changes which actually cause conflicts while merging.
+        Reduces the need for manual maintenance of branches.
+  Cons: It may sometimes give lots of conflicts depending upon the code modifications.
