@@ -32,3 +32,6 @@ How would branches help?
   all the while keeping your recent work safely stored somewhere else.This is the idea behind branching,
   and Git makes it easy to do.
 
+How do the diagrams help you visualize the branch structure?
+- Diagrams help to easily identify the reachability of any commits. It can help to pinpoint the parent
+  relationship easily.
