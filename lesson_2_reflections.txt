@@ -35,3 +35,10 @@ How would branches help?
 How do the diagrams help you visualize the branch structure?
 - Diagrams help to easily identify the reachability of any commits. It can help to pinpoint the parent
   relationship easily.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- Merging two branches together make the changes in a commit taking in consideration of common 
+  parent commit of the branches. If some of the code was deleted with respect to parent commit in any of the 
+  branch then it will not be present in the final commit, even if it is present in other branch.
+  We represent it in the diagram the way we do because it will layout a commit having the parent relationship
+  with the both branches. Now we can delete the branch label that is merged except master.
