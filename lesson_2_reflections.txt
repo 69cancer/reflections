@@ -20,3 +20,15 @@ How can you use the staging area to make sure you have one commit per logical ch
 - Staging area is holding area before we can make commit, so we only add those 
   files which have logically related changes and then we can commit it with appropriate commit 
   msg.  
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+- Say you are working on a paper. You’ve gotten a first draft out, submitted for review. 
+  You then get a new batch of data, and you’re in the process of integrating it into the paper. 
+  Halfway in, however, the review committee calls you up and tells you that you need to change some 
+  of your section headings to conform to format specifications. What do you do?Obviously you don’t 
+  want to send them your half-baked revisions with corrected headings. What you want to do is jump 
+  back to the version you sent out, change the headings on that version, and send off that copy, 
+  all the while keeping your recent work safely stored somewhere else.This is the idea behind branching,
+  and Git makes it easy to do.
+
