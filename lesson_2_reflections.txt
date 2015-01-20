@@ -15,3 +15,8 @@ What value do you think it offers?
   large change, involving a lot of files and quite a few different subtasks.Now the change
   is all tested and working, we need to commit all this properly, in several clean commits 
   each focused on one aspect of the code changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+- Staging area is holding area before we can make commit, so we only add those 
+  files which have logically related changes and then we can commit it with appropriate commit 
+  msg.  
