@@ -19,3 +19,8 @@ Describe the differences between forks, clones, and branches. When would you use
   We use it when we have to either modify or add some additional commits to exiting repo.
   Branches are copies of the master branch in a certain period of time when we have to 
   work on new features.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- It helps in a situation when both the remote and local repository has been added with new commits,
+  and then we can git fetch remote commits to origin/master branch and then compare the master
+  with origin/master, rectifying conflicts and then merging the origin/master and master.
