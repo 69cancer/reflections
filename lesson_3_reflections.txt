@@ -24,3 +24,7 @@ What is the benefit of having a copy of the last known state of the remote store
 - It helps in a situation when both the remote and local repository has been added with new commits,
   and then we can git fetch remote commits to origin/master branch and then compare the master
   with origin/master, rectifying conflicts and then merging the origin/master and master.
+
+  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  - We can collaborate with other version control systems like dropbox, google, etc. 
+    But according to me GitHub will be the easiest one.
