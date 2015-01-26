@@ -25,6 +25,15 @@ What is the benefit of having a copy of the last known state of the remote store
   and then we can git fetch remote commits to origin/master branch and then compare the master
   with origin/master, rectifying conflicts and then merging the origin/master and master.
 
-  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-  - We can collaborate with other version control systems like dropbox, google, etc. 
-    But according to me GitHub will be the easiest one.
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- We can collaborate with other version control systems like dropbox, google, etc. 
+  But according to me GitHub will be the easiest one.
+
+When would you want to make changes in a separate branch rather than directly in master? What 
+benefits does each approach have?
+- If I have a fully working master and I dont want to alter the working master without confirming wether
+  the new feature or any new experiments on the project is working or not. In this case, if I
+  have to add new features then I will make a new branch. If I am working on collaborated project then
+  I will have to work for my part on a separate branch and then I can pull request and other can merge it
+  if found working.
+
