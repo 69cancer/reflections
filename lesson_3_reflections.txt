@@ -35,5 +35,7 @@ benefits does each approach have?
   the new feature or any new experiments on the project is working or not. In this case, if I
   have to add new features then I will make a new branch. If I am working on collaborated project then
   I will have to work for my part on a separate branch and then I can pull request and other can merge it
-  if found working.
+  if found working.Also by doing so we can easily keep our master branch up-to-date with master of the 
+  original repository, and merge changes from master into your branch when we are ready.
+
 
